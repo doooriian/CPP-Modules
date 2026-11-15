@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppm.png" width="115" alt="CPP01 bonus badge" /></a>
+
 # CPP01 · Memory, references and control flow
 
 **Lifetimes, pointers, references and member functions**
