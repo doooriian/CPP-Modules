@@ -55,11 +55,9 @@ CPP-Modules/
 │   ├── README.md
 │   └── ex00/ ... ex06/
 ├── ...
-├── CPP09/
-│   ├── README.md
-│   └── ex00/ ... ex02/
-└── scripts/
-    └── check-builds.sh
+└── CPP09/
+    ├── README.md
+    └── ex00/ ... ex02/
 ```
 
 Exercises are **independent programs**: repeated class files between exercises are intentional as the 42 modules evolve progressively.
@@ -90,14 +88,6 @@ make
 
 The individual exercise Makefiles generally compile with `-Wall -Wextra -Werror -std=c++98`. There is no single root executable.
 
-### Build verification
-
-```bash
-./scripts/check-builds.sh
-```
-
-This helper attempts to compile each tracked exercise with a Makefile and reports failures. It is a **local check**, not a guarantee of runtime correctness or 42 evaluation results.
-
 ## 🧠 What these modules showcase
 
 - **C++ fundamentals:** encapsulation, const-correctness, canonical class lifecycle and object ownership
@@ -109,7 +99,7 @@ This helper attempts to compile each tracked exercise with a Makefile and report
 
 - **C++98 only** by design: these are 42 school exercises, not a modern C++ application framework.
 - `CPP09/ex00` requires a `data.csv` reference file that was **not present in the source repository inspected**. See [CPP09 notes](CPP09/README.md).
-- Exercise implementations were documented from their tracked source files. The build-check script helps with compilation, but does **not** replace functional or regression tests.
+- Exercise implementations were documented from their tracked source files. Their correct operation has not been independently established through a complete test suite.
 - Bonus/standard badges reflect the module outcomes reported by the project author, not automated test results.
 
 ---
