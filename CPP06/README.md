@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppm.png" width="115" alt="CPP06 bonus badge" /></a>
+
 # CPP06 · C++ casts
 
 **Scalar conversion, pointer serialization and RTTI**
