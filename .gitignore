@@ -1,0 +1,15 @@
+# C++ and platform build artifacts
+.DS_Store
+*.o
+*.a
+*.so
+*.d
+*.out
+*.exe
+*.dSYM/
+*.gcda
+*.gcno
+.build-report.txt
+
+# Input/output generated for local testing
+*.replace
