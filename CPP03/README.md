@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppm.png" width="115" alt="CPP03 bonus badge" /></a>
+
 # CPP03 · Inheritance
 
 **Base classes, derived classes and multiple inheritance**
