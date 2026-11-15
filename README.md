@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppe.png" alt="42 C++ badge (standard edition)" width="135" /></a>
+<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppm.png" alt="42 C++ bonus badge; CPP04 is standard" width="135" /></a>
 
 # C++ Modules
 
@@ -24,20 +24,22 @@ This repository groups the work originally developed across **CPP00 to CPP09** a
 
 The goal is to make the actual code **easy to explore**. Each module keeps its original exercise organization and includes a dedicated README describing what its source implements.
 
+**42 badges:** bonus on **CPP00–CPP03** and **CPP05–CPP09**; standard on **CPP04**. Each module README displays its corresponding badge.
+
 ## 🧭 Module overview
 
-| Module | Main topic | Concepts | Exercises |
-| :--- | :--- | :--- | :---: |
-| [CPP00](CPP00/README.md) | **Introduction to C++** | Namespaces, streams, classes and encapsulation | 3 |
-| [CPP01](CPP01/README.md) | **Memory, references and control flow** | Lifetimes, pointers, references and member functions | 7 |
-| [CPP02](CPP02/README.md) | **Ad-hoc polymorphism** | Canonical form, fixed-point numbers and operator overloads | 4 |
-| [CPP03](CPP03/README.md) | **Inheritance** | Base classes, derived classes and multiple inheritance | 4 |
-| [CPP04](CPP04/README.md) | **Subtype polymorphism** | Virtual functions, abstract classes and deep copying | 3 |
-| [CPP05](CPP05/README.md) | **Exceptions** | Exception safety, constrained objects and abstract form execution | 4 |
-| [CPP06](CPP06/README.md) | **C++ casts** | Scalar conversion, pointer serialization and RTTI | 3 |
-| [CPP07](CPP07/README.md) | **Templates** | Generic functions and a dynamically allocated template array | 3 |
-| [CPP08](CPP08/README.md) | **Templated containers and iterators** | STL algorithms, iterator ranges and container adapters | 3 |
-| [CPP09](CPP09/README.md) | **STL and algorithms** | Maps, stacks, sorting algorithms and performance comparison | 3 |
+| Module | Main topic | Concepts | Exercises | Badge |
+| :--- | :--- | :--- | :---: | :---: |
+| [CPP00](CPP00/README.md) | **Introduction to C++** | Namespaces, streams, classes and encapsulation | 3 | Bonus |
+| [CPP01](CPP01/README.md) | **Memory, references and control flow** | Lifetimes, pointers, references and member functions | 7 | Bonus |
+| [CPP02](CPP02/README.md) | **Ad-hoc polymorphism** | Canonical form, fixed-point numbers and operator overloads | 4 | Bonus |
+| [CPP03](CPP03/README.md) | **Inheritance** | Base classes, derived classes and multiple inheritance | 4 | Bonus |
+| [CPP04](CPP04/README.md) | **Subtype polymorphism** | Virtual functions, abstract classes and deep copying | 3 | Standard |
+| [CPP05](CPP05/README.md) | **Exceptions** | Exception safety, constrained objects and abstract form execution | 4 | Bonus |
+| [CPP06](CPP06/README.md) | **C++ casts** | Scalar conversion, pointer serialization and RTTI | 3 | Bonus |
+| [CPP07](CPP07/README.md) | **Templates** | Generic functions and a dynamically allocated template array | 3 | Bonus |
+| [CPP08](CPP08/README.md) | **Templated containers and iterators** | STL algorithms, iterator ranges and container adapters | 3 | Bonus |
+| [CPP09](CPP09/README.md) | **STL and algorithms** | Maps, stacks, sorting algorithms and performance comparison | 3 | Bonus |
 
 ## 🧱 Repository layout
 
@@ -57,7 +59,6 @@ CPP-Modules/
 │   ├── README.md
 │   └── ex00/ ... ex02/
 └── scripts/
-    ├── import-sources.sh
     └── check-builds.sh
 ```
 
@@ -69,7 +70,6 @@ Exercises are **independent programs**: repeated class files between exercises a
 
 - A C++ compiler with **C++98** support (for example `c++` / GCC / Clang)
 - `make` and a Unix-like terminal
-- Access to the original private module repositories if you are preparing this combined repository from the accompanying template
 
 ### Build an exercise
 
@@ -109,8 +109,8 @@ This helper attempts to compile each tracked exercise with a Makefile and report
 
 - **C++98 only** by design: these are 42 school exercises, not a modern C++ application framework.
 - `CPP09/ex00` requires a `data.csv` reference file that was **not present in the source repository inspected**. See [CPP09 notes](CPP09/README.md).
-- Exercise implementations have been documented from their actual tracked source structure, but have **not been executed or regression-tested as part of this packaging step**.
-- No score, certification, bonus completion or automated test success is claimed by the project badge displayed above.
+- Exercise implementations were documented from their tracked source files. The build-check script helps with compilation, but does **not** replace functional or regression tests.
+- Bonus/standard badges reflect the module outcomes reported by the project author, not automated test results.
 
 ---
 
