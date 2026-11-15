@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppm.png" width="115" alt="CPP05 bonus badge" /></a>
+
 # CPP05 · Exceptions
 
 **Exception safety, constrained objects and abstract form execution**
