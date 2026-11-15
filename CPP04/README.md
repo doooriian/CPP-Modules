@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://42.fr/"><img src="https://raw.githubusercontent.com/doooriian/42-Badges/main/badges/cppe.png" width="115" alt="CPP04 standard badge" /></a>
+
 # CPP04 · Subtype polymorphism
 
 **Virtual functions, abstract classes and deep copying**
