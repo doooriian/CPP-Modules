@@ -24,7 +24,7 @@ done
 rm -f /tmp/cpp-modules-build-check-$$.log
 printf '\nBuild checks: %d passed, %d failed, %d attempted.\n' "$passed" "$failed" "$found"
 if [ "$found" -eq 0 ]; then
-  echo 'No Makefiles found. First run scripts/import-sources.sh.'
+  echo 'No exercise Makefiles found under CPP00–CPP09.'
   exit 2
 fi
 [ "$failed" -eq 0 ]
